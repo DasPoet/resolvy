@@ -100,8 +100,8 @@ type Message struct {
 }
 
 func (msg Message) MarshalJSON() ([]byte, error) {
-    return resolvy.MarshalJSON(msg, MarshalConfig{
-        Marshalers: map[string]FieldMarshaler{
+    return resolvy.MarshalJSON(msg, resolvy.MarshalConfig{
+        Marshalers: map[string]resolvy.FieldMarshaler{
             "timestamp": func() (interface{}, error) {
                 return msg.Timestamp.Format(time.RFC850), nil
             },
