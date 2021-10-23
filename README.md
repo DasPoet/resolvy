@@ -13,7 +13,7 @@
       height="30"
     />
   </a>
-  <a href="https://goreportcard.com/report/github.com/daspoet/gowinkey">
+  <a href="https://goreportcard.com/report/github.com/daspoet/resolvy">
     <img
       src="https://goreportcard.com/badge/github.com/daspoet/resolvy?style=for-the-badge"
       height="30"
