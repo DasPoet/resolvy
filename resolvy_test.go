@@ -3,6 +3,7 @@ package resolvy
 import (
 	"fmt"
 	"log"
+	"testing"
 	"time"
 )
 
@@ -25,4 +26,8 @@ func Example() {
 	}
 
 	fmt.Println(string(data))
+}
+
+func Test(t *testing.T) {
+	Example()
 }
