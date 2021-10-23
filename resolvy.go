@@ -4,6 +4,7 @@ import (
 	"encoding/json"
 )
 
+// TagName is the default tag name used by resolvy.
 const TagName = "resolvy"
 
 func MarshalJSON(v interface{}, config MarshalConfig) ([]byte, error) {
